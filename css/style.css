@@ -1,0 +1,25 @@
+body {
+    margin: 0px auto;
+    background-color:#222;
+}
+
+#direction {
+    position : absolute;
+    width: 190px;
+    height: 180px;
+    top: 25%;
+    left: 23%;
+    background-image: url('../image/img_bg_direction.png');
+    background-repeat: no-repeat;
+    transition: all 1s ease-out;
+    transform: rotate(0deg);
+}
+
+#direction-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent ;
+    -webkit-tap-highlight-color: transparent;
+    border-color: transparent;
+}
